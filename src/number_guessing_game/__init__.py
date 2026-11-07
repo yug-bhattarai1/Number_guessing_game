@@ -80,7 +80,7 @@ def main():
             high_scores['hard'] = attempts
             print(f"New high score for hard difficulty: {attempts} attempts!")  
 
-        print("current high scores:")
+        print("Current high scores:")
         print(f"Easy: {high_scores['easy']} attempts")
         print(f"Medium: {high_scores['medium']} attempts")
         print(f"Hard: {high_scores['hard']} attempts")
